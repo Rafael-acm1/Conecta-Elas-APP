@@ -1,2 +1,39 @@
-/* For information on how to create your own theme, please see:
-http://ionicframework.com/docs/theming/ */
+/* variables.css ou global.css */
+
+/* Estilizando o IonToolbar */
+ion-toolbar {
+    --background: #F5135B;
+    --color: #ffffff;
+    --border-color: #000000;
+}
+
+/* Centralizando o IonTitle */
+ion-toolbar ion-title {
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ion-tab-bar {
+    --background: #F5135B;
+    /* Cor de fundo das tabs */
+    --color: white;
+    /* Cor padrão do texto */
+    --color-selected: #ffffff;
+    /* Cor do texto quando a tab está ativa */
+    --ion-color-primary: #ffffff;
+    /* Cor de ícones e texto */
+}
+
+ion-tab-button {
+    --color: white;
+    /* Cor do texto */
+    --color-selected: #24CE9E;
+    /* Cor do texto quando ativo */
+    --ripple-color: rgba(255, 255, 255, 0.3);
+    /* Cor do efeito ripple */
+}
